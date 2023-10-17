@@ -1,0 +1,52 @@
+*{
+    font-family: 'roboto';
+    
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+
+.container{
+   justify-content: center;
+   justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 100px;
+    
+}
+
+.balance{
+    grid-column: 1/-1;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+}
+
+.expenses{
+    grid-column: 1/-1;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+
+}
+
+
+.name{
+    grid-column: 1/1;
+
+}
+
+.amount{
+    grid-column:2/3 ;
+}
+
+.add-btn{
+    grid-column: 3/3;
+}
